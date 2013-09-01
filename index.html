@@ -1,0 +1,65 @@
+<meta charset="utf-8">
+<style>
+
+body {
+    margin:0px;
+}
+
+.header {
+    text-align: center;
+    background-color: lightgray;
+    height: 10%;
+}
+.left_area {
+    border-radius: 1px;
+    background-color: lightgray;
+    float: left;
+    height: 90%;
+    width: 10%;
+}
+
+.graph_and_properties {
+    float:right;
+    height: 90%;
+    width: 90%;
+}
+
+.graph_area {
+    float: left;
+    background-color: gray;
+    border-radius: 1px;
+    width: 70%;
+    height: 100%;
+}
+
+.properties_area {
+    float: right;
+    height: 100%;
+    width: 30%;
+    background-color: lightgray;
+}
+
+.graph {
+    width: 100%;
+    height: 100%;
+}
+
+</style>
+<script src="kiwi/ui.js"></script>
+<script src="kiwi/graph.js"></script>
+<script src="kiwi/test.js"></script>
+<script src="shader-editor/main.js"></script>
+<body onload="editor_main()">
+
+<div class="header"> header </div>
+<div class="left_area"> left </div>
+<div class="graph_and_properties"> 
+    <div class="graph_area">
+        <canvas class="graph"></canvas>
+    </div>
+    <div class="properties_area">
+        properties
+    </div>
+</div>
+
+</body>
